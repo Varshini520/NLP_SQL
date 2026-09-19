@@ -1,0 +1,23 @@
+Database Schema: EMPLOYEE Table
+
+Table Name: EMPLOYEE
+
+Columns:
+- EMP_NAME: VARCHAR(25) - Employee's full name
+- EMP_ID: VARCHAR(25) - Unique employee identifier
+- DESIGNATION: VARCHAR(25) - Job title/role
+- EMP_AGE: INT - Employee's age in years
+
+Sample Data:
+1. Sanjeev, XY022, NLP Engineer, 33
+2. Amar, XY024, Data Engineer, 39
+3. Anand, XY023, Data Scientist, 35
+4. Atreya, XY021, Cloud Engineer, 40
+5. Anant, XY026, Data Engineer, 42
+
+This table contains employee information suitable for querying about:
+- Employee details by name or ID
+- Employees by designation/role
+- Age-based queries (oldest, youngest, average age)
+- Counts and aggregations by designation
+- Filtering and sorting operations
